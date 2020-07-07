@@ -1,0 +1,92 @@
+{%load static%}
+<html>
+    <head>
+        <title>Hemant_Frontend</title>
+        <link rel="stylesheet" href="{%static 'css/t.css'%}">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <header>
+                    <div class="inline">
+                        <h1 class="title">Flybuy</h1>
+                        <img src="https://media-public.canva.com/MADpjlnZc04/2/thumbnail_large.png" alt="" class ="bag">
+                    </div>    
+                    <nav>
+                        <a href="#" class="hide-desktop"><img src="https://media-public.canva.com/yx1w8/MAD3_oyx1w8/1/tl.png" alt="" class="menu" id="menu"></a> 
+                        <ul class="hide-mobile show-desktop" id="nav"> 
+                            <li class="exit-btn hide-desktop" id="exit">
+                                <img src="https://media-public.canva.com/VW4j4/MAD6DnVW4j4/1/tl.png" alt="" >
+                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="city">Select City</a></li>
+                            <li><a href="cart" >My Cart</a></li>
+                            <li><a href="login">Login</a></li>
+                            <li><a href="signup" >SignUp</a></li>  
+                        </ul>    
+                    </nav>
+                </header>
+            </div>
+            <div class="search">
+                <!--
+                <img src="https://media-public.canva.com/MADew_WjhQs/1/thumbnail_large.png" alt="" class="searchicon">
+                <h1>Search for products</h1>
+                -->
+                
+                <input class="search-txt" type="text" name="" placeholder="Type to search" >
+                <a  href='url'>
+                    <img src="https://media-public.canva.com/MADew_WjhQs/1/thumbnail_large.png" alt="" class="searchicon">
+                </a>
+            
+            </div>
+            <div>
+                <ul class="products">
+                    <li>
+                        <a href="fruits" class="products">Fruits</a>
+                        <img src="https://media-public.canva.com/MADBfKQ32NY/1/thumbnail_large.png" alt="">
+                    </li>
+                    <li>
+                        <a href="personalcare" class="products">Personal Care</a>
+                        <img src="https://media-public.canva.com/MADdRlmpsU4/1/thumbnail_large.png" alt="">
+                    </li>
+                    <li>
+                        <a href="cleanising" class="products">Cleanising</a>
+                        <img src="https://media-public.canva.com/MADbG3VaS4o/1/thumbnail_large.png" alt="">
+                    </li>
+                </ul>
+            </div>
+             <div class="image">
+                    <img src="https://media-public.canva.com/7NImo/MADxgr7NImo/1/tl.png" alt="" class="man">
+                    <div>
+                        <img src="https://media-public.canva.com/N5__E/MAD2U8N5__E/1/tl.png" alt="" class="store">
+                        <h1 class="store">We love to serve you</h1>
+                    </div>
+             </div>
+            <div class="foot">
+                <img src="https://media-public.canva.com/MADWmke3AVk/1/thumbnail_large.png" alt="" class="wave"> 
+                <h1 class="about">About us</h1>
+                <div class="tilt">
+                     <p>Did you ever imagine that the freshest of fruits and vegetables,
+                        top quality pulses and food grains, dairy products and hundreds
+                        of branded items could be handpicked and delivered to your home, 
+                        all at the click of a button? India’s first comprehensive online megastore,
+                        flybuy.com, brings a whopping 20000+ products with more than 1000 brands,
+                        to over 4 million happy customers. From household cleaning products to beauty 
+                        and makeup, flybuy has everything you need for your daily needs.
+                            flybuy.com is convenience personified We’ve taken away all the stress
+                            associated with shopping for daily essentials, and you can now order
+                            all your household products and even buy groceries online without 
+                            travelling long distances or standing in serpentine queues. 
+                            Add to this the convenience of finding all your requirements at one single source, 
+                            along with great savings, and you will realize that flybuy- 
+                            India’s largest online supermarket, has revolutionized the way India shops for groceries
+                    . Online grocery shopping has never been easier.
+                    </p>
+                </div>
+            </div>
+      </div> 
+      <script src="{%static 'js/t.js'%}"></script>
+    </body>
+</html>

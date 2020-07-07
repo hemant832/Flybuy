@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    line-height: 1.6em;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    text-align: center;
+    background-color: #23303b;
+    height: 700px;
+}
+.menu{
+    width: 15px;
+}
+.title{
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+}
+.bag{
+    position: relative;
+    top: 15px;
+    width: 50px;  
+    height: 60px;  
+}
+header{
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide-mobile{
+    display: none;
+}
+.exit-btn{
+    text-align: right;
+}
+.exit-btn img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+nav ul{
+    position: fixed;
+    right: 0;
+    width: 25%;
+    background:#3a383a;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+}
+nav ul li a{
+    display: block;
+    padding: .7em;
+    background: #494849;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background: #585758;
+}
+.inline{
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content:flex-start;
+}
+.searchicon{
+    position: relative;
+    top: 0;
+    left: 3px;
+    width: 18px;  
+    height: 18px; 
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: black;
+    width:calc(100%-1em);
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: .5em;
+    font-size: 0.8em;
+
+}
+.search-txt{
+    background:none;
+    border: none;
+    width: 0;
+    color: white;
+}
+
+.search:hover > .search-txt{
+    width: 200px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+}
+.products img{
+    height: 70px;
+    width: 70px;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+.image h1{
+  position: relative;
+  top: 30px;
+}
+.man{
+    height: 165px;
+    width: 85px;
+}
+.wave{
+    
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.store{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    font-size: large;
+    color: #e198e3;
+    right: 20px;
+    top: 3px;
+}
+
+.tilt{
+    background-color: #3a383a;
+    transform: skewY(-2deg);   
+    border-top-left-radius: 30px;
+    height: 250px;
+}
+.tilt:before{
+    content:"";
+    right: 0;
+    top: -20px;
+    position: absolute;
+    background:#3a383a;
+    height: 40px;
+    width: 35px;
+}
+.tilt:after{
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background:#23303b;
+    right: 0;
+    top: -60px;
+    border-radius: 50%;
+}
+.tilt p{
+    margin-top: 2%;
+    position: relative;
+    top: 20px;
+    transform: skewY(2deg);
+    padding: -3em;
+}
+.about{
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+.foot{
+    margin-top: 0;
+    margin: 0;
+    position: relative;
+    bottom: 150px;
+}
+@media only screen and (min-width: 1024px){
+    .show-desktop{
+        display: block;
+    }
+    .hide-desktop{
+        display: none;
+    }
+    nav ul{
+        position: inherit;
+        width: auto;
+        background: none;
+        display: flex;
+        padding-top: 0;
+    }
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        background-color: inherit;
+        text-align: right;
+    }
+    nav ul li a:hover{
+        background-color: inherit;
+    }
+    .search{
+        margin-left: 40%;
+        margin-right: 40%;
+        padding: .35em;
+    }
+    .searchicon{
+        width: 25px;  
+        height: 25px; 
+    }
+    .tilt p{
+        padding: 3em;
+    }
+    .man{
+        height: 230px;
+        width: 115px;
+    }
+
+    .store{
+        height: 220px;
+        width: 220px;
+    }
+    .foot{
+        bottom: 280px;
+    }
+    .container{
+        height: 2000px;
+    }
+    .image{
+        position: relative;
+        bottom: 35px;
+    }
+}
+@media only screen and (min-width: 600px){
+    .search{
+        margin-left: 32%;
+        margin-right: 32%;
+        padding: .8em;
+    }
+    .container{
+        height: 900px;
+    }
+}

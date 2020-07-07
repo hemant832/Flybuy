@@ -1,0 +1,168 @@
+.box{
+    height: 1300px;
+    width: 1300px;
+    background-color:#23303b;
+}
+.white1{
+    position: absolute;
+    top: -35px;
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+}
+.white2{
+    position: absolute;
+    left: 730px;
+    top: 10px;
+    color: white;
+}
+.location{
+    position: absolute;
+    left: 780px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.white3{
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    color: white;
+}
+
+.white4{
+    position: absolute;
+    left: 900px;
+    top: 10px;
+    color: white;
+}
+.white5{
+    position: absolute;
+    left: 970px;
+    top: 10px;
+    color: white;
+}
+.white6{
+    position: absolute;
+    left: 1020px;
+    top: 10px;
+    color: white;
+}
+.bag{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 170px;
+}
+.man{
+    position: absolute;
+    width: 150px;
+    height: 230px;
+    top: 610px;
+}
+.searchbar{
+    position: absolute;
+    left: 440px;
+    top: 160px;
+    color: white;
+    font-size: 44px;
+    font-family: unset;
+    
+ }
+.wave{
+    position: absolute;
+    width: 1000px;
+    height: 230px;
+    top: 770px;
+}
+.search{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 165px;
+    left: 440px;
+}
+.border{
+    position: absolute;
+    left: 440px;
+    top: 160px;
+    width: 395px;
+    height: 50px;
+    border: 3px solid white;
+ }
+ .store{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 570px;
+    left: 950px;
+}
+.Fruit{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+ }
+ .Personal{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+ }
+ .Cleanising{
+    position: absolute;
+    left: 950px;
+    top: 300px;
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+ }
+ .fruit{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    font-size: xx-large;
+    color: white;
+    font-family: cursive;
+ }
+ .personal{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    font-size: xx-large;
+    color: white;
+    font-family: cursive;
+ }
+ .cleanising{
+    position: absolute;
+    left: 950px;
+    top: 300px;
+    font-size: xx-large;
+    color: white;
+    font-family: cursive;
+ }
+ .quote{
+     position: absolute;
+     top: 870px;
+     left: 900px;
+     color: #e198e3;
+     font-size: 30px;
+     font-family: cursive;
+ }
+ .about{
+    position: absolute;
+    top: 1030px;
+    left: 500px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+ }
+.par{
+    position: absolute;
+    top: 1080px;
+    color: white;
+}

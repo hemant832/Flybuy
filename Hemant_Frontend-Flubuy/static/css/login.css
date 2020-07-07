@@ -1,0 +1,13 @@
+div {
+    margin-top: 200px;
+    margin-left: 450px;
+}
+div input{
+    display: block;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+div button{
+    padding: 1em;
+    background: rgb(106, 106, 145);
+}
